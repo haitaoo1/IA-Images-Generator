@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Vina+Sans&family=Work+Sans:wght@100;300;400;500;600;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#03275d;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    background: url('./src/fondo.jpg') center/cover no-repeat;
+}
+
+.backg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+header{
+    color: aliceblue;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.bottom-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+
+}
+
+.input-container{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+input{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38,57,77) 0 20px 30px -10px;
+    box-sizing: border-box;
+}
+#submit-icon{
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.images-sections{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.image-container{
+    width: 45%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(38,57,77) 0 20px 30px -10px;
+
+}
+
+.image-container img{
+    width: 100%;
+
+
+}
